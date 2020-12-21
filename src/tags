@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+CHUNK_SIZE	mm.c	/^#define CHUNK_SIZE /;"	d	file:
+DSIZE	mm.c	/^#define DSIZE /;"	d	file:
+WSIZE	mm.c	/^#define WSIZE /;"	d	file:
+_GNU_SOURCE	bulk.c	/^#define _GNU_SOURCE$/;"	d	file:
+block_index	mm.c	/^static inline __attribute__((unused)) int block_index(size_t x) {$/;"	f	typeref:typename:int	file:
+bulk_alloc	bulk.c	/^void *bulk_alloc(size_t size) {$/;"	f	typeref:typename:void *
+bulk_free	bulk.c	/^void bulk_free(void *ptr, size_t size) {$/;"	f	typeref:typename:void
+calloc	mm.c	/^void *calloc(size_t nmemb, size_t size) {$/;"	f	typeref:typename:void *
+free	mm.c	/^void free(void *ptr) {$/;"	f	typeref:typename:void
+free_list	mm.c	/^static free_node *free_list[13];$/;"	v	typeref:typename:free_node * [13]	file:
+free_node	mm.c	/^struct free_node{$/;"	s	file:
+free_node	mm.c	/^}typedef free_node;$/;"	v	typeref:struct:free_node typedef
+header	mm.c	/^    size_t header;$/;"	m	struct:free_node	typeref:typename:size_t	file:
+heap_validator	mm.c	/^int heap_validator(){$/;"	f	typeref:typename:int
+malloc	mm.c	/^void *malloc(size_t size) {$/;"	f	typeref:typename:void *
+next	mm.c	/^    struct free_node *next;$/;"	m	struct:free_node	typeref:struct:free_node *	file:
+realloc	mm.c	/^void *realloc(void *ptr, size_t size) {$/;"	f	typeref:typename:void *
